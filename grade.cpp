@@ -5,6 +5,14 @@
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+void marks(string id,int count=0){
+	
+        cout <<"\t\t #"<<"STUDENT ID : "<<id;
+        
+ 
+	
+}
+
 int main(int argc, char** argv) {
 	int max = 3;
 	char ans[max] ={0};
@@ -69,10 +77,8 @@ for(int i=0;i<=max;++i)
 }
  	
 //print marks
-
-        cout <<"\t\t #"<<"STUDENT ID : "<<id<<" |"<<count <<"[Marks]" ;
-        cout<<"\n";
- 
+ marks(id,count);cout<<" | "<<count <<"[Marks]" ;
+ cout<<"\n";
 	system("pause");
 	return 0;
 }     
