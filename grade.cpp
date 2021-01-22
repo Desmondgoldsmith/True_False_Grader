@@ -14,7 +14,7 @@ void marks(string id,int count=0){
 }
 
 int main(int argc, char** argv) {
-	int max = 3;
+	int max = 30;
 	char ans[max] ={0};
 	char stdans[max]={0};
 	int count=0;
